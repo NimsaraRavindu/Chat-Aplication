@@ -1,0 +1,58 @@
+/* Set a nice background for the whole page */
+body {
+    background-color: #f4f7f6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* The main container for the chat app */
+.chat-app-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+}
+
+/* The scrollable chat window */
+#chatContainer {
+    height: 450px; /* Taller chat window */
+    overflow-y: auto;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1.5rem; /* Space before the text box */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Base style for all chat bubbles */
+.chat-bubble {
+    padding: 12px 18px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 75%;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+/* Style for "Me" (outgoing) messages */
+.me-bubble {
+    background-color: #0d6efd; /* Bootstrap primary blue */
+    color: white;
+    margin-left: auto; /* Aligns to the right */
+    border-bottom-right-radius: 5px; /* Creates a "tail" */
+}
+
+/* Style for "Saman" (incoming) messages */
+.saman-bubble {
+    background-color: #e9ecef; /* Bootstrap light gray */
+    color: #212529; /* Bootstrap dark text */
+    margin-right: auto; /* Aligns to the left */
+    border-bottom-left-radius: 5px; /* Creates a "tail" */
+}
+
+/* Make sure the input field has the correct focus style */
+#textBox:focus {
+    z-index: 5;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
