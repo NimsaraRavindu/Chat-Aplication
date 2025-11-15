@@ -7,8 +7,8 @@ You can copy and paste the text below into a file named `README.md` in your proj
 # Gemini AI Chat Application
 
 This is a simple, responsive, single-page chat application. It features a clean UI built with Bootstrap and connects directly to the Google Gemini AI API. Users can type a message, which is sent to the `gemini-1.5-flash` model, and the AI's response is then rendered back into the chat window, complete with Markdown formatting.
+<img width="1366" height="629" alt="Screenshot (303)" src="https://github.com/user-attachments/assets/f3a1978b-9427-49d6-937e-1f6ad94d04b5" />
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/22d31bb4-04e2-4697-b3bf-0e5b09bc4358" />
 
 
 -----
