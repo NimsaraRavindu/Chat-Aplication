@@ -77,7 +77,7 @@ function getText() {
    };
    
     // 3. Send the request and get the AI response
-   fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBnazpTD5d8LInP8Q886CMVgGc-igJBUWU", requestOptions)
+   fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBnazpTD5d8LInP8Q886CMVgGc-iWU", requestOptions)
      .then((response) => response.json())//not text but json
      .then((result) => {
         // 4. Create the AI's bubble (as "saman")
